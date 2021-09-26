@@ -1,7 +1,7 @@
 import colorama, os, random, string
 from colorama import Fore
 
-# made by lure
+# made by xinj/lure, dont skid or sell this tool
 
 def generate(len, user_amnt):
     f = open('usernames.txt', 'w')
@@ -18,7 +18,6 @@ def get_random_stringn(length):
     return result_str
 os.system('cls')
 print(Fore.RED+"""
-Banner:(refresh preview)
   ██████  ▄▄▄     ▓██   ██▓
 ▒██    ▒ ▒████▄    ▒██  ██▒
 ░ ▓██▄   ▒██  ▀█▄   ▒██ ██░
